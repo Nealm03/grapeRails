@@ -7,13 +7,13 @@ gem 'rails', '6.0.3.5'
 gem 'sqlite3'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.8'
+gem 'sass-rails', '~> 4.0.2'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.2.2'
+gem 'coffee-rails', '~> 4.0.1'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -25,7 +25,7 @@ gem 'jquery-rails', '>= 4.0.1'
 gem 'turbolinks', '>= 2.2.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder', '~> 1.5', '>= 1.5.3'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -46,7 +46,7 @@ end
 
 # API Stuff
 gem 'grape', '~> 0.6.1'
-gem 'grape-entity', '~> 0.4.0'
+gem 'grape-entity', '~> 0.4.2'
 gem 'rack-contrib', '~> 1.1.0'
 gem 'grape-swagger', '~> 0.7.2'
 gem 'grape-swagger-rails', '~> 0.0.8'
