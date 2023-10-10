@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.3.5'
+gem 'rails', '7.1.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -22,7 +22,7 @@ gem 'coffee-rails', '~> 4.2.2'
 gem 'jquery-rails', '>= 4.0.1'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks', '>= 2.2.1'
+gem 'turbolinks', '>= 2.2.2'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -49,5 +49,5 @@ gem 'grape', '~> 0.6.1'
 gem 'grape-entity', '~> 0.4.0'
 gem 'rack-contrib', '~> 1.1.0'
 gem 'grape-swagger', '~> 0.7.2'
-gem 'grape-swagger-rails', '~> 0.0.8'
+gem 'grape-swagger-rails', '~> 0.0.10'
 
