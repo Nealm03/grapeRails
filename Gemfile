@@ -45,7 +45,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # API Stuff
-gem 'grape', '~> 0.6.1'
+gem 'grape', '~> 2.4.0'
 gem 'grape-entity', '~> 0.4.0'
 gem 'rack-contrib', '~> 1.1.0'
 gem 'grape-swagger', '~> 0.7.2'
